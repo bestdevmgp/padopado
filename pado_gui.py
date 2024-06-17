@@ -1,7 +1,9 @@
-import requests, json, os
-from dotenv import load_dotenv
 import tkinter as tk
 from tkinter import messagebox, ttk
+import requests
+import json
+import os
+from dotenv import load_dotenv
 
 load_dotenv()
 
@@ -27,7 +29,7 @@ def update_weather():
         "전라남도": "Gwangju",
         "경상북도": "Pohang",
         "경상남도": "Busan",
-        "제주도": "Haenam"  # 제주도의 경우 Haenam으로 대체
+        "제주도": "Haenam"
     }
 
     if inputVal not in city_map:
