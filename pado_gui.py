@@ -87,7 +87,7 @@ def get_weather():
                              "천둥을 동반한 지역 곳곳의 가벼운 비", "천둥을 동반한 보통 또는 심한 비", "천둥을 동반한 지역 곳곳의 가벼운 눈", "천둥을 동반한 보통 또는 눈"]
 
             weather_info = f"\n{last_updated}에 기상 정보 업데이트됨\n\n"
-            weather_info += f"{city_name}번 도시의 현재 기온은 {temp_c}°C, 체감 온도는 {feelslike_c}°C 입니다.\n"
+            weather_info += f"현재 기온은 {temp_c}°C, 체감 온도는 {feelslike_c}°C 입니다.\n"
             weather_info += f"기상상태: {condition}\n"
             weather_info += f"미세먼지: {air_quality} ({air_quality_index}µg/m³)\n"
             weather_info += f"자외선 지수: {uv_status} ({uv_index} / 11)\n"
