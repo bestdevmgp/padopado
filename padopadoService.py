@@ -32,7 +32,6 @@ while True:  # 에러 발생 시 재시작
         if inputVal == "1" or inputVal == "경기도":  # API로 불러올 지역 - 인천
             cityName = "Incheon"
             cityName2 = "경기도"
-
         elif inputVal == "2" or inputVal == "강원도":  # API로 불러올 지역 - 강릉
             cityName = "Gangneung"
             cityName2 = "강원도"
